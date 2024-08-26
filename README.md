@@ -25,16 +25,16 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
    
-   git clone https://github.com/Andrei-Chiorian/Mokshabook.git
+       git clone https://github.com/Andrei-Chiorian/Mokshabook.git
 
 2. **Navigate to the project directory:**
    
-   cd Mokshabook
+       cd Mokshabook
 
 3. **Install dependencies:**
    
-   composer install
-   npm install
+       composer install
+       npm install
 
 4. **Set up the environment:**
    
@@ -43,17 +43,36 @@ To get started with the project, follow these steps:
   
 5. **Generate an application key:**
   
-   php artisan key:generate
+       php artisan key:generate
    
 6. **Run database migrations:**
     
-   php artisan migrate
+       php artisan migrate
    
 7. **Start the development server:**
     
-    php artisan serve
-    npm run dev
+        php artisan serve
+        npm run dev
 
 8. **Open your browser and visit:**
  
-    http://localhost:8000
+        http://localhost:8000
+
+## Customization
+You can customize various aspects of the project:
+
+- **UI Styling:** Modify the Tailwind CSS configurations in tailwind.config.js and styles in the resources/css directory.
+- **Database Structure:** Adjust the migrations or models in the database/migrations and app/Models directories.
+- **Routes and Controllers:** Customize the logic in routes/web.php and the corresponding controllers in app/Http/Controllers.
+    
+## Contributions
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request. Feedback and enhancements are highly appreciated.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+- **Name:** Andrei Chiorian
+- **Email:** contacto@andreiwebdevelopment.es
+- **LinkedIn:** https://www.linkedin.com/in/andrei-chiorian-web-development
+- **GitHub:** https://github.com/Andrei-Chiorian
