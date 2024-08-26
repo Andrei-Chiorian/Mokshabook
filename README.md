@@ -27,33 +27,33 @@ To get started with the project, follow these steps:
    
    git clone https://github.com/Andrei-Chiorian/Mokshabook.git
 
-3. **Navigate to the project directory:**
+2. **Navigate to the project directory:**
    
    cd Mokshabook
 
-4. **Install dependencies:**
+3. **Install dependencies:**
    
    composer install
    npm install
 
-6. **Set up the environment:**
+4. **Set up the environment:**
    
    Duplicate .env.example and rename it to .env.
    Configure your database and other environment variables in the .env file.
   
-8. **Generate an application key:**
+5. **Generate an application key:**
   
    php artisan key:generate
    
-10. **Run database migrations:**
+6. **Run database migrations:**
     
    php artisan migrate
    
-12. **Start the development server:**
+7. **Start the development server:**
     
     php artisan serve
     npm run dev
 
-14. **Open your browser and visit:**
+8. **Open your browser and visit:**
  
     http://localhost:8000
